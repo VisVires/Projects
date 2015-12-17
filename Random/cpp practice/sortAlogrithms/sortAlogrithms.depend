@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1442862082 source:c:\users\william\documents\github\cpp\mine\sortalogrithms\main.cpp
+	<iostream>
+	"sortAlgo.h"
+
+1442861709 c:\users\william\documents\github\cpp\mine\sortalogrithms\sortalgo.h
+	<vector>
+
+1442862174 source:c:\users\william\documents\github\cpp\mine\sortalogrithms\sortalgo.cpp
+	<iostream>
+	"sortAlgo.h"
+
