@@ -26,3 +26,15 @@ flow = OAuth2WebServerFlow(client_id, client_secret, scope)
 storage = Storage('credentials.dat')
 
 credentials = storage.get()
+
+#if the credentials don't exist outh2client.tools.run_flow() opens a auth server 
+#page in the default browser then stores new credentials in the storage object 
+if credentials is None or credentials.invalid:
+	credentials = tools.run_flow(flow, storage, tools.argparser.parse_args())
+
+#create http object to handle http requests and authorize it
+http = httplib2.Http()
+http = credentials.authorize(http)
+
+service = build('plus', 'v1', http=http)
+
