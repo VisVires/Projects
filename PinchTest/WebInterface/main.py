@@ -1,40 +1,53 @@
-import sys
+from oauth2client.client import OAuth2WebServerFlow
+from goauthcred import GoogleOAuth
 import httplib2
+import logging
+import traceback
 import webapp2
 import os
-import urllib
-import urllib2
-import uuid
 import json
-from goauthcred import GoogleOAuth
-from apiclient.discovery import build
-from oauth2client import tools
-from oauth2client.file import Storage
-from oauth2client.client import AccessTokenRefreshError
-from oauth2client.client import OAuth2WebServerFlow
 
-google_creds = GoogleOAuth()
-client_id = google_creds.clientID()
-client_secret = google_creds.clientSecret()
-scope = google_creds.scope()
-auth_end = google_creds.authEnd()
-token = google_creds.token()
-api = google_creds.api_key()
+CLIENT_ID = GoogleOAuth().clientID()
+CLIENT_SECRET = GoogleOAuth().clientSecret()
+API_KEY = GoogleOAuth().api_key()
+REDIRECT_URL = GoogleOAuth().redirect()
+TOKEN_URL = GoogleOAuth().token()
+AUTH_URL = GoogleOAuth().authEnd()
 
-flow = OAuth2WebServerFlow(client_id, client_secret, scope)
 
-storage = Storage('credentials.dat')
+class MainPage(webapp2.RequestHandler):
+	def get(self):
+		flow = OAuth2WebServerFlow(
+			client_id=CLIENT_ID,
+			client_secret= CLIENT_SECRET,
+			scope='profile',
+			redirect_uri=REDIRECT_URL,
+			token_uri=TOKEN_URL,
+			auth_url=AUTH_URL)
+		code = self.request.get("code")
+		if not code:
+			auth_uri = flow.step1_get_authorize_url()
+			self.response.write("""\<html><title>Crozdesk Python Example</title><body><a href="%s">Click here to login with Crozdesk.
+				</a></body></html>""" % auth_uri)
+		else:
+			credentials = flow.step2_exchange(code)
+			self.response.write(credentials)
 
-credentials = storage.get()
 
-#if the credentials don't exist outh2client.tools.run_flow() opens a auth server 
-#page in the default browser then stores new credentials in the storage object 
-if credentials is None or credentials.invalid:
-	credentials = tools.run_flow(flow, storage, tools.argparser.parse_args())
+app = webapp2.WSGIApplication([
+    ('/.*', MainPage)
+], debug=True)
 
-#create http object to handle http requests and authorize it
-http = httplib2.Http()
-http = credentials.authorize(http)
+'''
+('/outh2callback', OAuthHandler),
+('/login', LogInHandler)
 
-service = build('plus', 'v1', http=http)
-
+def get(self):
+		google_creds = GoogleOAuth()
+		client_id = google_creds.clientID()
+		client_secret = google_creds.clientSecret()
+		scope = google_creds.scope()
+		auth_end = google_creds.authEnd()
+		token = google_creds.token()
+		api = google_creds.api_key()
+'''
