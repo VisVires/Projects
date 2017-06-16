@@ -13,6 +13,7 @@ API_KEY = GoogleOAuth().api_key()
 REDIRECT_URL = GoogleOAuth().redirect()
 TOKEN_URL = GoogleOAuth().token()
 AUTH_URL = GoogleOAuth().authEnd()
+URL = GoogleOAuth().url()
 
 
 class MainPage(webapp2.RequestHandler):
@@ -31,7 +32,11 @@ class MainPage(webapp2.RequestHandler):
 				</a></body></html>""" % auth_uri)
 		else:
 			credentials = flow.step2_exchange(code)
-			self.response.write(credentials)
+			http = httplib2.Http()
+			http = credentials.authorize(http)
+			response, content = http.request(URL, "GET")
+			oauth_data = json.loads(content)
+			self.response.write(oauth_data['id'])
 
 
 app = webapp2.WSGIApplication([
