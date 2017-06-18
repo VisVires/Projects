@@ -1,5 +1,6 @@
 from oauth2client.client import OAuth2WebServerFlow
 from google.appengine.ext.webapp import template
+from google.appengine.api import urlfetch
 from goauthcred import GoogleOAuth
 import httplib2
 import logging
@@ -38,13 +39,19 @@ class MainPage(webapp2.RequestHandler):
 			response, content = http.request(URL, "GET")
 			oauth_data = json.loads(content)
 			user_id = oauth_data['id']
-			body_fat_url = 'https://bodyfatpinchtest.appspot.com/user/' + user_id
+			body_fat_url = 'https://pinchtestweb.appspot.com/user/' + user_id
 			template_values = {'url': body_fat_url}
 			self.response.out.write(template.render('index.html', template_values))
 
+class User(webapp2.RequestHandler):
+	def get(self):
+		self.response.out.write("This worked")
+
+
 
 app = webapp2.WSGIApplication([
-    ('/', MainPage)
+    ('/', MainPage),
+    ('/user', User)
 ], debug=True)
 
 '''
