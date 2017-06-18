@@ -30,7 +30,7 @@ class MainPage(webapp2.RequestHandler):
 		code = self.request.get("code")
 		if not code:
 			auth_uri = flow.step1_get_authorize_url()
-			template_values = {'auth_uri': auth_uri}
+			template_values = {'auth_uri': auth_uri, 'CLIENT_ID': CLIENT_ID}
 			self.response.out.write((template.render('oauth.html', template_values)))
 		else:
 			credentials = flow.step2_exchange(code)
@@ -42,12 +42,13 @@ class MainPage(webapp2.RequestHandler):
 			body_fat_url = 'https://pinchtestweb.appspot.com/user/' + user_id
 			self.redirect('/user/' + user_id)
 			
+			
 class User(webapp2.RequestHandler):
 	def get(self, user_id=None):
 		if user_id:
 			try:
 				response = urlfetch.fetch("https://bodyfatpinchtest.appspot.com/user/" + user_id)
-				self.response.out.write(response.content)
+				self.response.out.write(template.render('index.html', {}))
 			except Exception as e:
 				self.response.out.write(e)
 
