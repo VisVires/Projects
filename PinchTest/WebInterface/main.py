@@ -40,21 +40,26 @@ class MainPage(webapp2.RequestHandler):
 			oauth_data = json.loads(content)
 			user_id = oauth_data['id']
 			body_fat_url = 'https://pinchtestweb.appspot.com/user/' + user_id
-			template_values = {'url': body_fat_url}
-			self.response.out.write(template.render('index.html', template_values))
-
+			self.redirect('/user/' + user_id)
+			
 class User(webapp2.RequestHandler):
-	def get(self):
-		self.response.out.write("This worked")
+	def get(self, user_id=None):
+		if user_id:
+			try:
+				response = urlfetch.fetch("https://bodyfatpinchtest.appspot.com/user/" + user_id)
+				self.response.out.write(response.content)
+			except Exception as e:
+				self.response.out.write(e)
 
 
 
 app = webapp2.WSGIApplication([
     ('/', MainPage),
-    ('/user', User)
+    ('/user/(.*)', User)
 ], debug=True)
 
 '''
 ('/outh2callback', OAuthHandler),
 ('/login', LogInHandler)
+https://bodyfatpinchtest.appspot.com/user/100457483065526943895
 '''
