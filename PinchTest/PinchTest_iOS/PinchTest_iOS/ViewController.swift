@@ -2,25 +2,25 @@
 //  ViewController.swift
 //  PinchTest_iOS
 //
-//  Created by William George on 6/19/17.
+//  Created by William George on 6/20/17.
 //  Copyright © 2017 Vis Vires. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    @IBAction func oauthLogin(sender: UIButton, forEvent event: UIEvent) {
-        
+class ViewController: UIViewController , GIDSignInUIDelegate {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        GIDSignIn.sharedInstance().uiDelegate = self
+        // Do any additional setup after loading the view, typically from a nib.
     }
-	
-	func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
-	            withError error: NSError!) {
-		if (error == nil) {
-			// Perform any operations on signed in user here.
-			// ...
-		} else {
-			print("\(error.localizedDescription)")
-		}
-	}}
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
 

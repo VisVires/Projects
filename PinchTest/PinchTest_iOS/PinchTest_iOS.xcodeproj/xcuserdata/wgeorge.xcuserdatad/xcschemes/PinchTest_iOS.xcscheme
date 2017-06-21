@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD743E041EF8CB0B0085D307"
+               BlueprintIdentifier = "DDC3A5501EFA1D9F003A6B38"
                BuildableName = "PinchTest_iOS.app"
                BlueprintName = "PinchTest_iOS"
                ReferencedContainer = "container:PinchTest_iOS.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD743E181EF8CB0C0085D307"
-               BuildableName = "PinchTest_iOSTests.xctest"
-               BlueprintName = "PinchTest_iOSTests"
-               ReferencedContainer = "container:PinchTest_iOS.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD743E231EF8CB0C0085D307"
-               BuildableName = "PinchTest_iOSUITests.xctest"
-               BlueprintName = "PinchTest_iOSUITests"
-               ReferencedContainer = "container:PinchTest_iOS.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD743E041EF8CB0B0085D307"
+            BlueprintIdentifier = "DDC3A5501EFA1D9F003A6B38"
             BuildableName = "PinchTest_iOS.app"
             BlueprintName = "PinchTest_iOS"
             ReferencedContainer = "container:PinchTest_iOS.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD743E041EF8CB0B0085D307"
+            BlueprintIdentifier = "DDC3A5501EFA1D9F003A6B38"
             BuildableName = "PinchTest_iOS.app"
             BlueprintName = "PinchTest_iOS"
             ReferencedContainer = "container:PinchTest_iOS.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD743E041EF8CB0B0085D307"
+            BlueprintIdentifier = "DDC3A5501EFA1D9F003A6B38"
             BuildableName = "PinchTest_iOS.app"
             BlueprintName = "PinchTest_iOS"
             ReferencedContainer = "container:PinchTest_iOS.xcodeproj">

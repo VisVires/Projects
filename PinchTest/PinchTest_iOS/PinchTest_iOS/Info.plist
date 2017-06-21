@@ -23,9 +23,19 @@
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>REVERSED_CLIENT_ID</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.1075045980906-pi70scqebvj2d4raoa8ko1o4n80r7vfe</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.visvires.georgew.PinchTest-iOS</string>
 			</array>
 		</dict>
 	</array>

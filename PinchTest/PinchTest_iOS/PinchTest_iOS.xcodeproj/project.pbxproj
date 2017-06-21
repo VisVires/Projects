@@ -7,181 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3A3C5E3DE6429D597679B68 /* libPods-PinchTest_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C667378FC505ADCFBB366333 /* libPods-PinchTest_iOS.a */; };
-		DD6E7B271EF8EC5F00B46C30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD6E7B261EF8EC5F00B46C30 /* GoogleService-Info.plist */; };
-		DD6E7B281EF8EC5F00B46C30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD6E7B261EF8EC5F00B46C30 /* GoogleService-Info.plist */; };
-		DD6E7B291EF8EC5F00B46C30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD6E7B261EF8EC5F00B46C30 /* GoogleService-Info.plist */; };
-		DD743E091EF8CB0B0085D307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD743E081EF8CB0B0085D307 /* AppDelegate.swift */; };
-		DD743E0B1EF8CB0B0085D307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD743E0A1EF8CB0B0085D307 /* ViewController.swift */; };
-		DD743E0E1EF8CB0B0085D307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD743E0C1EF8CB0B0085D307 /* Main.storyboard */; };
-		DD743E101EF8CB0B0085D307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD743E0F1EF8CB0B0085D307 /* Assets.xcassets */; };
-		DD743E131EF8CB0B0085D307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD743E111EF8CB0B0085D307 /* LaunchScreen.storyboard */; };
-		DD743E1E1EF8CB0C0085D307 /* PinchTest_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD743E1D1EF8CB0C0085D307 /* PinchTest_iOSTests.swift */; };
-		DD743E291EF8CB0C0085D307 /* PinchTest_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD743E281EF8CB0C0085D307 /* PinchTest_iOSUITests.swift */; };
-		DD743E381EF8DBF60085D307 /* GIDSignInButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD743E371EF8DBF60085D307 /* GIDSignInButton.xib */; };
-		DD743E3A1EF8E0A70085D307 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DD743E391EF8E0A70085D307 /* Podfile */; };
+		DC8B3B22A5414B82D26C6C1D /* Pods_PinchTest_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9992CEF057AD27F03DC261E5 /* Pods_PinchTest_iOS.framework */; };
+		DD4A24641EFA24BF00455C3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD4A24631EFA24BF00455C3F /* GoogleService-Info.plist */; };
+		DD4A246D1EFA2F0100455C3F /* GIDSignInButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4A246C1EFA2F0100455C3F /* GIDSignInButton.xib */; };
+		DDC3A5551EFA1DA0003A6B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3A5541EFA1DA0003A6B38 /* AppDelegate.swift */; };
+		DDC3A5571EFA1DA0003A6B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3A5561EFA1DA0003A6B38 /* ViewController.swift */; };
+		DDC3A55A1EFA1DA0003A6B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC3A5581EFA1DA0003A6B38 /* Main.storyboard */; };
+		DDC3A55D1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDC3A55B1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodeld */; };
+		DDC3A55F1EFA1DA0003A6B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC3A55E1EFA1DA0003A6B38 /* Assets.xcassets */; };
+		DDC3A5621EFA1DA0003A6B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC3A5601EFA1DA0003A6B38 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DD743E1A1EF8CB0C0085D307 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD743DFD1EF8CB0B0085D307 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD743E041EF8CB0B0085D307;
-			remoteInfo = PinchTest_iOS;
-		};
-		DD743E251EF8CB0C0085D307 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD743DFD1EF8CB0B0085D307 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD743E041EF8CB0B0085D307;
-			remoteInfo = PinchTest_iOS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		31546970FF35F2A99A59699C /* Pods-PinchTest_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinchTest_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinchTest_iOS/Pods-PinchTest_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C667378FC505ADCFBB366333 /* libPods-PinchTest_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PinchTest_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD6E7B261EF8EC5F00B46C30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "PinchTest_iOS.xcodeproj/../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DD743E051EF8CB0B0085D307 /* PinchTest_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchTest_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD743E081EF8CB0B0085D307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD743E0A1EF8CB0B0085D307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD743E0D1EF8CB0B0085D307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD743E0F1EF8CB0B0085D307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD743E121EF8CB0B0085D307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DD743E141EF8CB0B0085D307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD743E191EF8CB0C0085D307 /* PinchTest_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchTest_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD743E1D1EF8CB0C0085D307 /* PinchTest_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchTest_iOSTests.swift; sourceTree = "<group>"; };
-		DD743E1F1EF8CB0C0085D307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD743E241EF8CB0C0085D307 /* PinchTest_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchTest_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD743E281EF8CB0C0085D307 /* PinchTest_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchTest_iOSUITests.swift; sourceTree = "<group>"; };
-		DD743E2A1EF8CB0C0085D307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD743E371EF8DBF60085D307 /* GIDSignInButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIDSignInButton.xib; sourceTree = "<group>"; };
-		DD743E391EF8E0A70085D307 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		E9E653801B49C5D1EA87EF52 /* Pods-PinchTest_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinchTest_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinchTest_iOS/Pods-PinchTest_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		1968BA4FC38C7C8163CCF36E /* Pods-PinchTest_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinchTest_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PinchTest_iOS/Pods-PinchTest_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		2E1D1FE0BB30C956D2873559 /* Pods-PinchTest_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinchTest_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PinchTest_iOS/Pods-PinchTest_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9992CEF057AD27F03DC261E5 /* Pods_PinchTest_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinchTest_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4A24631EFA24BF00455C3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD4A246B1EFA2BD700455C3F /* PinchTest_iOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PinchTest_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD4A246C1EFA2F0100455C3F /* GIDSignInButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIDSignInButton.xib; sourceTree = "<group>"; };
+		DDC3A5511EFA1D9F003A6B38 /* PinchTest_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchTest_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC3A5541EFA1DA0003A6B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDC3A5561EFA1DA0003A6B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDC3A5591EFA1DA0003A6B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC3A55C1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PinchTest_iOS.xcdatamodel; sourceTree = "<group>"; };
+		DDC3A55E1EFA1DA0003A6B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC3A5611EFA1DA0003A6B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC3A5631EFA1DA0003A6B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DD743E021EF8CB0B0085D307 /* Frameworks */ = {
+		DDC3A54E1EFA1D9F003A6B38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A3C5E3DE6429D597679B68 /* libPods-PinchTest_iOS.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD743E161EF8CB0C0085D307 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD743E211EF8CB0C0085D307 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DC8B3B22A5414B82D26C6C1D /* Pods_PinchTest_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		77AA3FCD0336AFFC1743EAA6 /* Pods */ = {
+		5BCEC83CB75597114034A5D0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				31546970FF35F2A99A59699C /* Pods-PinchTest_iOS.debug.xcconfig */,
-				E9E653801B49C5D1EA87EF52 /* Pods-PinchTest_iOS.release.xcconfig */,
+				2E1D1FE0BB30C956D2873559 /* Pods-PinchTest_iOS.debug.xcconfig */,
+				1968BA4FC38C7C8163CCF36E /* Pods-PinchTest_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B525FED23707D2D19224CCE5 /* Frameworks */ = {
+		85F15D7D85F078008537214C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C667378FC505ADCFBB366333 /* libPods-PinchTest_iOS.a */,
+				9992CEF057AD27F03DC261E5 /* Pods_PinchTest_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD743DFC1EF8CB0B0085D307 = {
+		DDC3A5481EFA1D9F003A6B38 = {
 			isa = PBXGroup;
 			children = (
-				DD6E7B261EF8EC5F00B46C30 /* GoogleService-Info.plist */,
-				DD743E071EF8CB0B0085D307 /* PinchTest_iOS */,
-				DD743E1C1EF8CB0C0085D307 /* PinchTest_iOSTests */,
-				DD743E271EF8CB0C0085D307 /* PinchTest_iOSUITests */,
-				DD743E061EF8CB0B0085D307 /* Products */,
-				77AA3FCD0336AFFC1743EAA6 /* Pods */,
-				B525FED23707D2D19224CCE5 /* Frameworks */,
+				DD4A246C1EFA2F0100455C3F /* GIDSignInButton.xib */,
+				DD4A246B1EFA2BD700455C3F /* PinchTest_iOS-Bridging-Header.h */,
+				DD4A24631EFA24BF00455C3F /* GoogleService-Info.plist */,
+				DDC3A5531EFA1DA0003A6B38 /* PinchTest_iOS */,
+				DDC3A5521EFA1D9F003A6B38 /* Products */,
+				5BCEC83CB75597114034A5D0 /* Pods */,
+				85F15D7D85F078008537214C /* Frameworks */,
 			);
 			sourceTree = "<group>";
-			usesTabs = 1;
 		};
-		DD743E061EF8CB0B0085D307 /* Products */ = {
+		DDC3A5521EFA1D9F003A6B38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD743E051EF8CB0B0085D307 /* PinchTest_iOS.app */,
-				DD743E191EF8CB0C0085D307 /* PinchTest_iOSTests.xctest */,
-				DD743E241EF8CB0C0085D307 /* PinchTest_iOSUITests.xctest */,
+				DDC3A5511EFA1D9F003A6B38 /* PinchTest_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD743E071EF8CB0B0085D307 /* PinchTest_iOS */ = {
+		DDC3A5531EFA1DA0003A6B38 /* PinchTest_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD743E361EF8D7170085D307 /* Supporting Files */,
-				DD743E0A1EF8CB0B0085D307 /* ViewController.swift */,
-				DD743E371EF8DBF60085D307 /* GIDSignInButton.xib */,
-				DD743E0C1EF8CB0B0085D307 /* Main.storyboard */,
+				DDC3A5541EFA1DA0003A6B38 /* AppDelegate.swift */,
+				DDC3A5561EFA1DA0003A6B38 /* ViewController.swift */,
+				DDC3A5581EFA1DA0003A6B38 /* Main.storyboard */,
+				DDC3A55E1EFA1DA0003A6B38 /* Assets.xcassets */,
+				DDC3A5601EFA1DA0003A6B38 /* LaunchScreen.storyboard */,
+				DDC3A5631EFA1DA0003A6B38 /* Info.plist */,
+				DDC3A55B1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodeld */,
 			);
 			path = PinchTest_iOS;
-			sourceTree = "<group>";
-		};
-		DD743E1C1EF8CB0C0085D307 /* PinchTest_iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD743E1D1EF8CB0C0085D307 /* PinchTest_iOSTests.swift */,
-				DD743E1F1EF8CB0C0085D307 /* Info.plist */,
-			);
-			path = PinchTest_iOSTests;
-			sourceTree = "<group>";
-		};
-		DD743E271EF8CB0C0085D307 /* PinchTest_iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DD743E281EF8CB0C0085D307 /* PinchTest_iOSUITests.swift */,
-				DD743E2A1EF8CB0C0085D307 /* Info.plist */,
-			);
-			path = PinchTest_iOSUITests;
-			sourceTree = "<group>";
-		};
-		DD743E361EF8D7170085D307 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DD743E081EF8CB0B0085D307 /* AppDelegate.swift */,
-				DD743E0F1EF8CB0B0085D307 /* Assets.xcassets */,
-				DD743E111EF8CB0B0085D307 /* LaunchScreen.storyboard */,
-				DD743E141EF8CB0B0085D307 /* Info.plist */,
-				DD743E391EF8E0A70085D307 /* Podfile */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD743E041EF8CB0B0085D307 /* PinchTest_iOS */ = {
+		DDC3A5501EFA1D9F003A6B38 /* PinchTest_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD743E2D1EF8CB0C0085D307 /* Build configuration list for PBXNativeTarget "PinchTest_iOS" */;
+			buildConfigurationList = DDC3A5661EFA1DA0003A6B38 /* Build configuration list for PBXNativeTarget "PinchTest_iOS" */;
 			buildPhases = (
-				4FC57C2EED856CC53B814727 /* [CP] Check Pods Manifest.lock */,
-				DD743E011EF8CB0B0085D307 /* Sources */,
-				DD743E021EF8CB0B0085D307 /* Frameworks */,
-				DD743E031EF8CB0B0085D307 /* Resources */,
-				19A776899CBA466DCEB1EEC9 /* [CP] Embed Pods Frameworks */,
-				2FF7D41465235E7DB7397E5D /* [CP] Copy Pods Resources */,
+				F17F8D436CF11D95D7D9C97D /* [CP] Check Pods Manifest.lock */,
+				DDC3A54D1EFA1D9F003A6B38 /* Sources */,
+				DDC3A54E1EFA1D9F003A6B38 /* Frameworks */,
+				DDC3A54F1EFA1D9F003A6B38 /* Resources */,
+				8F35DE99B0A155FBD78CC621 /* [CP] Embed Pods Frameworks */,
+				22E3EFFE39ECC9F723A297A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,75 +119,25 @@
 			);
 			name = PinchTest_iOS;
 			productName = PinchTest_iOS;
-			productReference = DD743E051EF8CB0B0085D307 /* PinchTest_iOS.app */;
+			productReference = DDC3A5511EFA1D9F003A6B38 /* PinchTest_iOS.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DD743E181EF8CB0C0085D307 /* PinchTest_iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD743E301EF8CB0C0085D307 /* Build configuration list for PBXNativeTarget "PinchTest_iOSTests" */;
-			buildPhases = (
-				DD743E151EF8CB0C0085D307 /* Sources */,
-				DD743E161EF8CB0C0085D307 /* Frameworks */,
-				DD743E171EF8CB0C0085D307 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD743E1B1EF8CB0C0085D307 /* PBXTargetDependency */,
-			);
-			name = PinchTest_iOSTests;
-			productName = PinchTest_iOSTests;
-			productReference = DD743E191EF8CB0C0085D307 /* PinchTest_iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DD743E231EF8CB0C0085D307 /* PinchTest_iOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD743E331EF8CB0C0085D307 /* Build configuration list for PBXNativeTarget "PinchTest_iOSUITests" */;
-			buildPhases = (
-				DD743E201EF8CB0C0085D307 /* Sources */,
-				DD743E211EF8CB0C0085D307 /* Frameworks */,
-				DD743E221EF8CB0C0085D307 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD743E261EF8CB0C0085D307 /* PBXTargetDependency */,
-			);
-			name = PinchTest_iOSUITests;
-			productName = PinchTest_iOSUITests;
-			productReference = DD743E241EF8CB0C0085D307 /* PinchTest_iOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DD743DFD1EF8CB0B0085D307 /* Project object */ = {
+		DDC3A5491EFA1D9F003A6B38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Vis Vires";
 				TargetAttributes = {
-					DD743E041EF8CB0B0085D307 = {
+					DDC3A5501EFA1D9F003A6B38 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 26U9P49TF8;
-						SystemCapabilities = {
-							com.apple.Push = {
-								enabled = 0;
-							};
-						};
-					};
-					DD743E181EF8CB0C0085D307 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = DD743E041EF8CB0B0085D307;
-					};
-					DD743E231EF8CB0C0085D307 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = DD743E041EF8CB0B0085D307;
 					};
 				};
 			};
-			buildConfigurationList = DD743E001EF8CB0B0085D307 /* Build configuration list for PBXProject "PinchTest_iOS" */;
+			buildConfigurationList = DDC3A54C1EFA1D9F003A6B38 /* Build configuration list for PBXProject "PinchTest_iOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,67 +145,33 @@
 				en,
 				Base,
 			);
-			mainGroup = DD743DFC1EF8CB0B0085D307;
-			productRefGroup = DD743E061EF8CB0B0085D307 /* Products */;
+			mainGroup = DDC3A5481EFA1D9F003A6B38;
+			productRefGroup = DDC3A5521EFA1D9F003A6B38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD743E041EF8CB0B0085D307 /* PinchTest_iOS */,
-				DD743E181EF8CB0C0085D307 /* PinchTest_iOSTests */,
-				DD743E231EF8CB0C0085D307 /* PinchTest_iOSUITests */,
+				DDC3A5501EFA1D9F003A6B38 /* PinchTest_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DD743E031EF8CB0B0085D307 /* Resources */ = {
+		DDC3A54F1EFA1D9F003A6B38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD743E3A1EF8E0A70085D307 /* Podfile in Resources */,
-				DD743E381EF8DBF60085D307 /* GIDSignInButton.xib in Resources */,
-				DD743E131EF8CB0B0085D307 /* LaunchScreen.storyboard in Resources */,
-				DD743E101EF8CB0B0085D307 /* Assets.xcassets in Resources */,
-				DD743E0E1EF8CB0B0085D307 /* Main.storyboard in Resources */,
-				DD6E7B271EF8EC5F00B46C30 /* GoogleService-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD743E171EF8CB0C0085D307 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD6E7B281EF8EC5F00B46C30 /* GoogleService-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD743E221EF8CB0C0085D307 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD6E7B291EF8EC5F00B46C30 /* GoogleService-Info.plist in Resources */,
+				DDC3A5621EFA1DA0003A6B38 /* LaunchScreen.storyboard in Resources */,
+				DD4A24641EFA24BF00455C3F /* GoogleService-Info.plist in Resources */,
+				DDC3A55F1EFA1DA0003A6B38 /* Assets.xcassets in Resources */,
+				DD4A246D1EFA2F0100455C3F /* GIDSignInButton.xib in Resources */,
+				DDC3A55A1EFA1DA0003A6B38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		19A776899CBA466DCEB1EEC9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PinchTest_iOS/Pods-PinchTest_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2FF7D41465235E7DB7397E5D /* [CP] Copy Pods Resources */ = {
+		22E3EFFE39ECC9F723A297A5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,7 +186,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PinchTest_iOS/Pods-PinchTest_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4FC57C2EED856CC53B814727 /* [CP] Check Pods Manifest.lock */ = {
+		8F35DE99B0A155FBD78CC621 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PinchTest_iOS/Pods-PinchTest_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F17F8D436CF11D95D7D9C97D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,59 +219,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD743E011EF8CB0B0085D307 /* Sources */ = {
+		DDC3A54D1EFA1D9F003A6B38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD743E0B1EF8CB0B0085D307 /* ViewController.swift in Sources */,
-				DD743E091EF8CB0B0085D307 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD743E151EF8CB0C0085D307 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD743E1E1EF8CB0C0085D307 /* PinchTest_iOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD743E201EF8CB0C0085D307 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD743E291EF8CB0C0085D307 /* PinchTest_iOSUITests.swift in Sources */,
+				DDC3A55D1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodeld in Sources */,
+				DDC3A5571EFA1DA0003A6B38 /* ViewController.swift in Sources */,
+				DDC3A5551EFA1DA0003A6B38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DD743E1B1EF8CB0C0085D307 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD743E041EF8CB0B0085D307 /* PinchTest_iOS */;
-			targetProxy = DD743E1A1EF8CB0C0085D307 /* PBXContainerItemProxy */;
-		};
-		DD743E261EF8CB0C0085D307 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD743E041EF8CB0B0085D307 /* PinchTest_iOS */;
-			targetProxy = DD743E251EF8CB0C0085D307 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		DD743E0C1EF8CB0B0085D307 /* Main.storyboard */ = {
+		DDC3A5581EFA1DA0003A6B38 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD743E0D1EF8CB0B0085D307 /* Base */,
+				DDC3A5591EFA1DA0003A6B38 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DD743E111EF8CB0B0085D307 /* LaunchScreen.storyboard */ = {
+		DDC3A5601EFA1DA0003A6B38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DD743E121EF8CB0B0085D307 /* Base */,
+				DDC3A5611EFA1DA0003A6B38 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -418,7 +251,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DD743E2B1EF8CB0C0085D307 /* Debug */ = {
+		DDC3A5641EFA1DA0003A6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -464,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		DD743E2C1EF8CB0C0085D307 /* Release */ = {
+		DDC3A5651EFA1DA0003A6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -503,118 +336,70 @@
 			};
 			name = Release;
 		};
-		DD743E2E1EF8CB0C0085D307 /* Debug */ = {
+		DDC3A5671EFA1DA0003A6B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31546970FF35F2A99A59699C /* Pods-PinchTest_iOS.debug.xcconfig */;
+			baseConfigurationReference = 2E1D1FE0BB30C956D2873559 /* Pods-PinchTest_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PinchTest_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.visvires.georgew.PinchTest-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PinchTest_iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		DD743E2F1EF8CB0C0085D307 /* Release */ = {
+		DDC3A5681EFA1DA0003A6B38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9E653801B49C5D1EA87EF52 /* Pods-PinchTest_iOS.release.xcconfig */;
+			baseConfigurationReference = 1968BA4FC38C7C8163CCF36E /* Pods-PinchTest_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PinchTest_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.visvires.georgew.PinchTest-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DD743E311EF8CB0C0085D307 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PinchTest_iOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.visvires.georgew.PinchTest-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchTest_iOS.app/PinchTest_iOS";
-			};
-			name = Debug;
-		};
-		DD743E321EF8CB0C0085D307 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PinchTest_iOSTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.visvires.georgew.PinchTest-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchTest_iOS.app/PinchTest_iOS";
-			};
-			name = Release;
-		};
-		DD743E341EF8CB0C0085D307 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PinchTest_iOSUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.visvires.georgew.PinchTest-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PinchTest_iOS;
-			};
-			name = Debug;
-		};
-		DD743E351EF8CB0C0085D307 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PinchTest_iOSUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.visvires.georgew.PinchTest-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PinchTest_iOS;
+				SWIFT_OBJC_BRIDGING_HEADER = "PinchTest_iOS-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD743E001EF8CB0B0085D307 /* Build configuration list for PBXProject "PinchTest_iOS" */ = {
+		DDC3A54C1EFA1D9F003A6B38 /* Build configuration list for PBXProject "PinchTest_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD743E2B1EF8CB0C0085D307 /* Debug */,
-				DD743E2C1EF8CB0C0085D307 /* Release */,
+				DDC3A5641EFA1DA0003A6B38 /* Debug */,
+				DDC3A5651EFA1DA0003A6B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD743E2D1EF8CB0C0085D307 /* Build configuration list for PBXNativeTarget "PinchTest_iOS" */ = {
+		DDC3A5661EFA1DA0003A6B38 /* Build configuration list for PBXNativeTarget "PinchTest_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD743E2E1EF8CB0C0085D307 /* Debug */,
-				DD743E2F1EF8CB0C0085D307 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD743E301EF8CB0C0085D307 /* Build configuration list for PBXNativeTarget "PinchTest_iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD743E311EF8CB0C0085D307 /* Debug */,
-				DD743E321EF8CB0C0085D307 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD743E331EF8CB0C0085D307 /* Build configuration list for PBXNativeTarget "PinchTest_iOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD743E341EF8CB0C0085D307 /* Debug */,
-				DD743E351EF8CB0C0085D307 /* Release */,
+				DDC3A5671EFA1DA0003A6B38 /* Debug */,
+				DDC3A5681EFA1DA0003A6B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDC3A55B1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDC3A55C1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodel */,
+			);
+			currentVersion = DDC3A55C1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodel */;
+			path = PinchTest_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = DD743DFD1EF8CB0B0085D307 /* Project object */;
+	rootObject = DDC3A5491EFA1D9F003A6B38 /* Project object */;
 }
