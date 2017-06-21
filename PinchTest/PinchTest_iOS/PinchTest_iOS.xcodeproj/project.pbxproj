@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DC8B3B22A5414B82D26C6C1D /* Pods_PinchTest_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9992CEF057AD27F03DC261E5 /* Pods_PinchTest_iOS.framework */; };
 		DD4A24641EFA24BF00455C3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD4A24631EFA24BF00455C3F /* GoogleService-Info.plist */; };
-		DD4A246D1EFA2F0100455C3F /* GIDSignInButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4A246C1EFA2F0100455C3F /* GIDSignInButton.xib */; };
 		DDC3A5551EFA1DA0003A6B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3A5541EFA1DA0003A6B38 /* AppDelegate.swift */; };
 		DDC3A5571EFA1DA0003A6B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC3A5561EFA1DA0003A6B38 /* ViewController.swift */; };
 		DDC3A55A1EFA1DA0003A6B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC3A5581EFA1DA0003A6B38 /* Main.storyboard */; };
@@ -24,7 +23,6 @@
 		9992CEF057AD27F03DC261E5 /* Pods_PinchTest_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinchTest_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4A24631EFA24BF00455C3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DD4A246B1EFA2BD700455C3F /* PinchTest_iOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PinchTest_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		DD4A246C1EFA2F0100455C3F /* GIDSignInButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIDSignInButton.xib; sourceTree = "<group>"; };
 		DDC3A5511EFA1D9F003A6B38 /* PinchTest_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchTest_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC3A5541EFA1DA0003A6B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDC3A5561EFA1DA0003A6B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 		DDC3A5481EFA1D9F003A6B38 = {
 			isa = PBXGroup;
 			children = (
-				DD4A246C1EFA2F0100455C3F /* GIDSignInButton.xib */,
 				DD4A246B1EFA2BD700455C3F /* PinchTest_iOS-Bridging-Header.h */,
 				DD4A24631EFA24BF00455C3F /* GoogleService-Info.plist */,
 				DDC3A5531EFA1DA0003A6B38 /* PinchTest_iOS */,
@@ -163,7 +160,6 @@
 				DDC3A5621EFA1DA0003A6B38 /* LaunchScreen.storyboard in Resources */,
 				DD4A24641EFA24BF00455C3F /* GoogleService-Info.plist in Resources */,
 				DDC3A55F1EFA1DA0003A6B38 /* Assets.xcassets in Resources */,
-				DD4A246D1EFA2F0100455C3F /* GIDSignInButton.xib in Resources */,
 				DDC3A55A1EFA1DA0003A6B38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

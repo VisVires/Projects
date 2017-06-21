@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate , GIDSignInDelegate {
             let givenName = user.profile.givenName
             let familyName = user.profile.familyName
             let email = user.profile.email
-            // ...
+            print("Our user signed in \(userId)")
         } else {
             print("\(error.localizedDescription)")
         }
