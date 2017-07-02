@@ -11,9 +11,14 @@ import GoogleSignIn
 
 class ViewController: UIViewController , GIDSignInUIDelegate {
 
+    @IBAction func signOutButton(sender: AnyObject) {
+        GIDSignIn.sharedInstance().signOut()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignIn.sharedInstance().signInSilently()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -22,7 +27,6 @@ class ViewController: UIViewController , GIDSignInUIDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
