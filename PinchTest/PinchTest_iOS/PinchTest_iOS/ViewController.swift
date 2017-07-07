@@ -20,6 +20,11 @@ class ViewController: UIViewController , GIDSignInUIDelegate {
         GIDSignIn.sharedInstance().uiDelegate = self
         GIDSignIn.sharedInstance().signInSilently()
         // Do any additional setup after loading the view, typically from a nib.
+        if (GIDSignIn.sharedInstance().hasAuthInKeychain()){
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewControllerWithIdentifier("MainView")
+            self.presentViewController(vc, animated: true, completion: nil)
+        }
     }
     
 

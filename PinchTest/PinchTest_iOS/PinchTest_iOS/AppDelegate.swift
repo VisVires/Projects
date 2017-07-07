@@ -10,12 +10,14 @@ import UIKit
 import CoreData
 import GoogleSignIn
 
+
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate , GIDSignInDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate , GIDSignInDelegate{
 
     var window: UIWindow?
 
-
+    let currentUser = CurrentUser()
+    
     func application(application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Initialize sign-in
@@ -35,6 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate , GIDSignInDelegate {
                                                     annotation: options[UIApplicationOpenURLOptionsAnnotationKey])
     }
     
+    
     func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
                 withError error: NSError!) {
         if (error == nil) {
@@ -45,12 +48,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate , GIDSignInDelegate {
             let givenName = user.profile.givenName
             let familyName = user.profile.familyName
             let email = user.profile.email
+            currentUser.id = userId
+            currentUser.idToken = idToken
+            currentUser.firstName = givenName
+            currentUser.lastName = familyName
+            currentUser.email = email
+            currentUser.fullName = fullName
+            
+            
             print("Our user signed in \(userId)")
         } else {
             print("\(error.localizedDescription)")
         }
     }
     
+    func getUserData() -> CurrentUser{
+        return currentUser
+    }
+
+  
     func signIn(signIn: GIDSignIn!, didDisconnectWithUser user:GIDGoogleUser!,
                 withError error: NSError!) {
         // Perform any operations when the user disconnects from app here.

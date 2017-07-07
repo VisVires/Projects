@@ -15,6 +15,8 @@
 		DDC3A55D1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDC3A55B1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodeld */; };
 		DDC3A55F1EFA1DA0003A6B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC3A55E1EFA1DA0003A6B38 /* Assets.xcassets */; };
 		DDC3A5621EFA1DA0003A6B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC3A5601EFA1DA0003A6B38 /* LaunchScreen.storyboard */; };
+		DDECDCF31F1034B200019DC5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDECDCF21F1034B200019DC5 /* MainView.swift */; };
+		DDECDCF51F10407700019DC5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDECDCF41F10407700019DC5 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		DDC3A55E1EFA1DA0003A6B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC3A5611EFA1DA0003A6B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC3A5631EFA1DA0003A6B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDECDCF21F1034B200019DC5 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DDECDCF41F10407700019DC5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				DDC3A5541EFA1DA0003A6B38 /* AppDelegate.swift */,
+				DDECDCF41F10407700019DC5 /* User.swift */,
 				DDC3A5561EFA1DA0003A6B38 /* ViewController.swift */,
 				DDC3A5581EFA1DA0003A6B38 /* Main.storyboard */,
+				DDECDCF21F1034B200019DC5 /* MainView.swift */,
 				DDC3A55E1EFA1DA0003A6B38 /* Assets.xcassets */,
 				DDC3A5601EFA1DA0003A6B38 /* LaunchScreen.storyboard */,
 				DDC3A5631EFA1DA0003A6B38 /* Info.plist */,
@@ -220,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC3A55D1EFA1DA0003A6B38 /* PinchTest_iOS.xcdatamodeld in Sources */,
+				DDECDCF31F1034B200019DC5 /* MainView.swift in Sources */,
 				DDC3A5571EFA1DA0003A6B38 /* ViewController.swift in Sources */,
+				DDECDCF51F10407700019DC5 /* User.swift in Sources */,
 				DDC3A5551EFA1DA0003A6B38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
