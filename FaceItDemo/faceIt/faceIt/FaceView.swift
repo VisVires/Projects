@@ -11,19 +11,29 @@ import UIKit
 class FaceView: UIView {
     
     @IBInspectable
-    var scale: CGFloat = 0.9
+    var scale: CGFloat = 0.9 {didSet {setNeedsDisplay()} }
     
     @IBInspectable
-    var eyesOpen: Bool = true
+    var eyesOpen: Bool = true {didSet {setNeedsDisplay()} }
     
     @IBInspectable
-    var mouthCurv: Double = -1.0 //1.0 is full smile, -1.0 is full frown
+    var mouthCurv: Double = -1.0 {didSet {setNeedsDisplay()} }//1.0 is full smile, -1.0 is full frown
     
     @IBInspectable
-    var lineWidth: CGFloat = 5.0
+    var lineWidth: CGFloat = 5.0 {didSet {setNeedsDisplay()} }
     
     @IBInspectable
     var color = UIColor.blueColor()
+    
+    func changeScale(byReactingTo pinchRecognizer: UIPinchGestureRecognizer){
+        switch pinchRecognizer.state{
+            case .Changed, .Ended:
+                scale *= pinchRecognizer.scale
+                pinchRecognizer.scale = 1
+            default:
+                break
+        }
+    }
     
     private var skullRadius: CGFloat {
         let skullRadius = min(bounds.size.width, bounds.size.height) / 2 * scale
@@ -55,11 +65,12 @@ class FaceView: UIView {
         if eyesOpen{
             path = UIBezierPath(arcCenter: eyeCenter, radius: eyeRadius, startAngle: 0, endAngle: CGFloat(M_PI) * 2, clockwise: true)
         } else {
-            path = UIBezierPath()
+            /*path = UIBezierPath()
             let start = CGPoint(x: eyeCenter.x-eyeRadius, y: eyeCenter.y)
             let finish = CGPoint(x: eyeCenter.x - eyeRadius, y: eyeCenter.y)
             path.moveToPoint(start)
-            path.addLineToPoint(finish)
+            path.addLineToPoint(finish)*/
+            path = UIBezierPath(arcCenter: eyeCenter, radius: eyeRadius, startAngle: 0, endAngle: CGFloat(M_PI), clockwise: true)
         }
         path.lineWidth = lineWidth
         return path
